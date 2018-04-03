@@ -1,0 +1,37 @@
+{
+  "name": "minimal-react-router",
+  "version": "1.0.0",
+  "description": "Minimal, no-frills routing component for React with basic auth support",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msandrini/minimal-react-router.git"
+  },
+  "keywords": [
+    "react",
+    "router"
+  ],
+  "author": {
+    "name": "Marcos Sandrini",
+    "email": "msandrinidesign@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/msandrini/minimal-react-router/issues"
+  },
+  "homepage": "https://github.com/msandrini/minimal-react-router#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.1.4",
+    "pre-commit": "^1.2.2"
+  }
+}
